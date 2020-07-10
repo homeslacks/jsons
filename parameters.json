@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualMachines_backendSERVER_name": {
+            "value": "backendSERVER"
+        },
+        "virtualMachines_frontendSERVER_name": {
+            "value": "frontendSERVER"
+        },
+        "virtualNetworks_BeardSite_vnet_name": {
+            "value": "BeardSite-vnet"
+        },
+        "networkInterfaces_backendserver889_name": {
+            "value": "backendserver889"
+        },
+        "publicIPAddresses_backendSERVER_ip_name": {
+            "value": "backendSERVER-ip"
+        },
+        "networkInterfaces_frontendserver859_name": {
+            "value": "frontendserver859"
+        },
+        "publicIPAddresses_frontendSERVER_ip_name": {
+            "value": "frontendSERVER-ip"
+        },
+        "networkSecurityGroups_backendSERVER_nsg_name": {
+            "value": "backendSERVER-nsg"
+        },
+        "networkSecurityGroups_frontendSERVER_nsg_name": {
+            "value": "frontendSERVER-nsg"
+        }
+    }
+}
